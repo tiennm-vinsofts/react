@@ -26,7 +26,7 @@ export default class Lifecycle extends React.Component {
     // Trả về 1 đối tượng JSX (có thể lồng các đối tượng với nhau nhưng phải có 1 đối tượng gói tất cả các đối tượng lại) để hiển thị hoặc null / false nếu không muốn hiển thị gì.
     // Không được gọi setState() trong hàm này (cũng như trong các hàm mà hàm này gọi đến), bởi khi gọi setState() thì hàm render sẽ được gọi => gây ra lặp vô hạn.
     console.log(this.state.count + this.state.name + '- render DOM');
-    return <div>{this.props.name}</div>;
+    return <div>{this.props.name} </div>;
   }
 
   componentDidMount() {
