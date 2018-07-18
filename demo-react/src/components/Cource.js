@@ -28,7 +28,7 @@ class Cource extends Component {
 
 
 /**handing event */
-  handleClick1() {
+  handleClick1 = () => {
     alert('hello');
   }
   handleClick2(content) {

@@ -10,12 +10,12 @@ class App extends Component {
         items : [
           { 
             name : 'Bootstrap',
-            free : true,
+            free : false,
             desc : 'Xin chào các bạn đến với khóa học Bootstrap'
           },
           {
             name : 'Yii2',
-            free : false,
+            free : true,
             desc : 'Xin chào các bạn đến với khóa học Yii2'
           },
           {
